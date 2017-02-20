@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.2/require.min.js"></script>
+    <script src="js/require-config.js"></script>
+    <script src="js/play1-appstart.js"></script>
+  </head>
+  <body>
+  	<div class="container-fluid">
+			<ul class="nav nav-tabs nav-justified">
+				<li role="presentation" class="dictNavTab active"><a href="#">Adjective</a></li>
+				<li role="presentation" class="dictNavTab"><a href="#">Adverb</a></li>
+				<li role="presentation" class="dictNavTab"><a href="#">Noun</a></li>
+				<li role="presentation" class="dictNavTab"><a href="#">Verb</a></li>
+				<li role="presentation" class="dictNavTab"><a href="#">SurabhiRevision</a></li>
+			</ul>
+			<div class="dictNavBar">
+					<button id="dictNavLeft" type="button" class="btn btn-default glyphicon glyphicon-chevron-down"></button>
+					<input id="pageNumber" type="input"  placeholder="1" size=5 value=1>
+					<button id="dictNavRight" type="button" class="btn btn-default glyphicon glyphicon-chevron-up"></button>
+			</div>
+				<table class="table table-responsive table-striped table-condensed table-hover">
+					<thead>
+						<tr>
+							<th></th>
+							<th>Word</th>	
+							<th>Meaning and Usage</th>
+						</tr>
+					</thead>
+					<tbody class="dictData">
+					</tbody>
+				</table>
+    </div>
+  </body>
+</html>
